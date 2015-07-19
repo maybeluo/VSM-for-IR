@@ -1,2 +1,9 @@
 # VSM-for-IR
-vector space model for information retrieval
+vector space model (VSM) for information retrieval (IR)
+
+## tf_idf.lnc.ltc.py
+see [SMART Information Retrieval System](https://en.wikipedia.org/wiki/SMART_Information_Retrieval_System)
+
+## data
+- Item stemmed version of [20 News Groups](http://web.ist.utl.pt/~acardoso/datasets/)
+
