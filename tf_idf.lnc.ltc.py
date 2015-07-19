@@ -101,6 +101,8 @@ def vectorizeQuery(query):
 	for term in freqDict:
 		tf_idf = freqDict[term] * invDocFreqDict[term]
 		cnt += ( tf_idf * tf_idf )
+	cnt = np.sqrt(cnt)
+		
 	for term in freqDict:
 		tf_idf = freqDict[term] * invDocFreqDict[term]
 		queryVecList.append( (topTermName2Order[term], tf_idf * tf_idf / cnt) )
